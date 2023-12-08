@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+/* .main{
+    /* border: solid 2px black; */
+    /* height: 1200px;
+    width: 100%; 
+} */
+.navbar{
+    position: fixed;
+    /* border: solid 2px rgb(173, 0, 0); */
+    height: 75px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    float: left;
+    /* border: solid 2px black; */
+    height: 75px;
+    width: 10%;
+}
+.profile{
+    float: right;
+    margin-right: 15px;
+    /* border: solid 2px black; */
+    height: 75px;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.signUp{
+    display: inline-block;
+    /* border: solid 2px rgb(0, 0, 0); */
+    height: 75px;
+    flex-basis: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 5px;
+}
+.logIn{
+    display: inline-block;
+    /* border: solid 2px rgb(18, 255, 148); */
+    height: 75px;
+    flex-basis: 50%;
+    margin-top: 30px;
+    margin-left:20px;
+}
+.back-logo{
+    /* position: fixed; */
+    /* border: solid 2px blue; */
+    display: inline-block;
+    height: 550px;
+    width: 100%;
+    margin-top: 75px;
+    z-index: 11;
+    
+}
+.back-logo > img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.65;
+    filter: brightness(75%);
+}
+
+.moto{
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    color: white;
+    z-index: 2;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    background: #565555;
+} 
+.cities{
+    /* border: solid 2px green; */
+    width: 100%;
+    height:420px;
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content:flex-start;
+    z-index: 2;
+    
+    
+}
+.delhi{
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 130px;
+    margin-right: 20px;
+    /* border: solid 2px blueviolet; */
+    /* padding: 100px; */
+    /* padding-top: 100px; */
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px 10px #edecec;
+}
+.img_del{
+    width: 190px;
+    height: 180px; 
+    overflow: hidden;
+}
+.mumbai{
+    
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 20px;
+    /* border: solid 2px blueviolet;
+      padding: 100px;
+    padding-top: 100px; */
+    border-radius: 50%;
+    box-shadow: 10px 10px 8px 10px #edecec;
+}
+.img_mum{
+    width: 190px;
+    height: 180px; 
+    overflow: hidden;
+}
+
+.bengluru{
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 20px;
+     /*border: solid 2px blueviolet;
+     padding: 100px;
+    padding-top: 100px; */
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px 10px #edecec;
+}
+.img_ben{
+    width: 190px;
+    height: 180px; 
+    overflow: hidden;
+}
+
+.hydrabad{
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 50px;
+     /*border: solid 2px blueviolet;
+    padding: 100px;
+    padding-top: 100px; */
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px 10px #edecec;
+}
+
+.img_hyd{
+    width: 190px;
+    height: 180px; 
+    overflow: hidden;
+
+}
+.majorcities{
+    /* border: solid 2px black; */
+    height:100px;
+    width: 220px;
+    left: 650px;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    position: relative;
+}
+
+.footer{
+    /* border: solid 2px pink; */
+    background-color: rgb(39, 39, 39);
+    height: 224px;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+
+.del{
+    /* border: solid 2px white; */
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 400px; 
+}
+.mum{
+    /* border: solid 2px white; */
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 115px;
+}
+.ben{
+    /* border: solid 2px white; */
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px
+}
+.hyd{
+    /* border: solid 2px white; */
+    display: inline-block;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 93px
+}
+.copyright{
+    /* border: solid 2px white;  */
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 720px;
+}
